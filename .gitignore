@@ -19,21 +19,14 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Model artifacts (large binaries — optionally exclude from git)
-# code/business_entity_resolution/src/model.pkl
-
-# Output files (generated — optionally exclude)
-# output/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
+# Data and models
+dataset/
+output/
+models/
+*.tsv
+*.csv
+*.parquet
+*.pkl
 
 # Logs
 *.log
